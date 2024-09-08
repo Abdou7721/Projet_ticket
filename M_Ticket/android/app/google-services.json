@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "675354525036",
+    "firebase_url": "https://projet1-c2fba-default-rtdb.firebaseio.com",
+    "project_id": "projet1-c2fba",
+    "storage_bucket": "projet1-c2fba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675354525036:android:dc4aedf4edd87a0fb74749",
+        "android_client_info": {
+          "package_name": "com.example.m_ticket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANFckqZV8lHzXtOewvdjX1mpNZH2llOgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

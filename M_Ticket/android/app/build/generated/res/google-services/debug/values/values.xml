@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://projet1-c2fba-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">675354525036</string>
+    <string name="google_api_key" translatable="false">AIzaSyANFckqZV8lHzXtOewvdjX1mpNZH2llOgM</string>
+    <string name="google_app_id" translatable="false">1:675354525036:android:dc4aedf4edd87a0fb74749</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANFckqZV8lHzXtOewvdjX1mpNZH2llOgM</string>
+    <string name="google_storage_bucket" translatable="false">projet1-c2fba.appspot.com</string>
+    <string name="project_id" translatable="false">projet1-c2fba</string>
+</resources>

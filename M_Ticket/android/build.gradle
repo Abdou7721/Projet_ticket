@@ -1,0 +1,27 @@
+// Fichier android/build.gradle
+
+buildscript {
+    ext.kotlin_version = "1.9.0" // Remplacez par la dernière version stable
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.0'  // Assurez-vous que la version du plugin Android Gradle est compatible
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.15'  // Assurez-vous que cette version est correcte
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
